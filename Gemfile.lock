@@ -37,8 +37,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
-    binding_of_caller (0.7.3.pre1)
-      debug_inspector (>= 0.0.1)
     builder (3.2.2)
     byebug (3.4.0)
       columnize (~> 0.8)
@@ -52,7 +50,6 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
-    debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.6.0)
@@ -144,11 +141,6 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    web-console (2.0.0.beta3)
-      activemodel (~> 4.0)
-      binding_of_caller (= 0.7.3.pre1)
-      railties (~> 4.0)
-      sprockets-rails (>= 2.0, < 4.0)
 
 PLATFORMS
   x86-mingw32
@@ -168,4 +160,3 @@ DEPENDENCIES
   turbolinks (= 2.3.0)
   tzinfo-data
   uglifier (= 2.5.3)
-  web-console (= 2.0.0.beta3)
